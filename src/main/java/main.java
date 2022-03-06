@@ -17,7 +17,7 @@ public class main {
 
         url = "jdbc:mysql://localhost:3306/Mediatek";
         user = "root";
-        password = "1827Kaamelott?";
+        password = "";
         Connection conn = DriverManager.getConnection(url, user, password);
 
         ArrayList<String> utilisateurs = new ArrayList<>();
